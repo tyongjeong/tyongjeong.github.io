@@ -4,20 +4,53 @@
     <title>Taeyong Jeong</title>
     <link rel="stylesheet" href="/style.css">
   </head>
+
   <body>
-    <h1>Taeyong Jeong</h1>
+    <header>
+      <h1>Taeyong Jeong</h1>
+      <p>Biomaterials · Drug Delivery · Microneedles · Immuno-engineering</p>
+    </header>
 
-    <p>
-      Welcome to my academic blog. I write about biomaterials,
-      drug delivery systems, microneedles, immuno-engineering,
-      and study notes from my coursework and research.
-    </p>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/research.html">Research</a>
+      <a href="/study-notes.html">Study Notes</a>
+    </nav>
 
-    <h2>Pages</h2>
-    <ul>
-      <li><a href="/about.html">About</a></li>
-      <li><a href="/research.html">Research</a></li>
-      <li><a href="/study-notes.html">Study Notes</a></li>
-    </ul>
+    <main>
+      <h1>Welcome</h1>
+
+      <p>
+        Welcome to my academic blog. I write about biomaterials,
+        drug delivery systems, microneedles, immuno-engineering,
+        and study notes from my coursework and research.
+      </p>
+
+      <h2>Research Interests</h2>
+
+      <ul>
+        <li>Biomaterials for drug delivery</li>
+        <li>Microneedle-based local delivery systems</li>
+        <li>Cancer immunotherapy</li>
+        <li>Organoids and organ-on-a-chip systems</li>
+        <li>Virology and molecular biology</li>
+      </ul>
+
+      <h2>Recent Notes</h2>
+
+      <div class="note-card">
+        <h3>Microneedle-based Drug Delivery</h3>
+        <p>
+          A brief introduction to microneedles as minimally invasive platforms
+          for local and sustained therapeutic delivery.
+        </p>
+        <a href="/microneedle-drug-delivery.html">Read more</a>
+      </div>
+    </main>
+
+    <footer>
+      © 2026 Taeyong Jeong
+    </footer>
   </body>
 </html>
